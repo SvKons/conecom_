@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Conecom</title>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <div class="header__wrap">
+                    <picture>
+                        <source srcset="images/background-l.jpg" media="(min-width: 1340px)" />
+                        <source srcset="images/background-m.jpg" media="(min-width: 1020px) and (max-width: 1339px)" />
+                        <source srcset="images/background-s.jpg" media="(min-width: 700px) and (max-width: 1019px)" />
+                        <img src="images/background-xs.jpg" alt="Фоновая картинка" class="header__background" />
+                    </picture>
+                    <div class="header__content">
+                        <div class="header__overlay"></div>
+                        <div class="header__logo-wrap">
+                            <picture>
+                                <source srcset="images/main-logo@3x.png" media="(min-width: 1340px)" />
+                                <source srcset="images/main-logo@2x.png" media="(min-width: 1020px) and (max-width: 1339px)" />
+                                <img src="images/main-logo.png" class="header__logo" alt="Логотип" />
+                            </picture>
+                        </div>
+
+                        <div class="header__text">
+                            <h1 class="header__title">Conecom</h1>
+                            <p class="header__description">российское подразделение французской группы DuffBeer</p>
+                        </div>
+                    </div>
+                    <div class="header__details_wrap">
+                        <div class="header__details"></div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="about">
+                    <div class="about__wrap">
+                        <div class="about__video">
+                            <iframe
+                                class="about__iframe"
+                                src="https://www.youtube.com/embed/PSCFIZa4b3I?si=u32M9UsXVT06uZTJ"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="about__info">
+                            <picture>
+                                <source srcset="images/number@3x.png" media="(min-width: 1340px)" />
+                                <source srcset="images/number@2x.png" media="(min-width: 1020px) and (max-width: 1339px)" />
+                                <img src="images/number.png" class="about__age" alt="Логотип" />
+                            </picture>
+                            <span class="about__text">лет нашего опыта</span>
+                            <div class="about__description">
+                                <p class="about__paragraph">
+                                    DuffBeer — один из мировых лидеров по производству дрожжей и других продуктов ферментации. И нам нужна сильная команда
+                                    профессионалов и единомышленников, которые будут стремиться развиваться вместе с DuffBeer.
+                                </p>
+                                <p class="about__paragraph">
+                                    Мы всегда рады принять талантливых и целеустремленных людей в нашу дружную команду! Мы ценим каждого своего сотрудника и
+                                    стремимся предоставить всем равные возможности в развитии <br />
+                                    и совершенств.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mission">
+                    <div class="mission__wrap">
+                        <div class="mission__top-info">
+                            <img src="images/arrow.png" alt="Иконка со стрелочкой" class="mission__icon" />
+                            <p class="mission__text">Каждое 3-е хлебобулочное изделие в мире произведено с использованием продукции DuffBeer</p>
+                        </div>
+                        <div class="mission__img_wrap">
+                            <div class="mission__img"></div>
+                        </div>
+                    </div>
+                    <div class="mission__content">
+                        <picture>
+                            <source srcset="images/bg-mission-l.jpg" media="(min-width: 1340px)" />
+                            <source srcset="images/bg-mission-m.jpg" media="(min-width: 1020px) and (max-width: 1339px)" />
+                            <source srcset="images/bg-mission-s.jpg" media="(min-width: 700px) and (max-width: 1019px)" />
+                            <img src="images/bg-mission-xs.jpg" alt="Фоновая картинка" class="mission__content_img" />
+                        </picture>
+                        <div class="mission__text-wrap">
+                            <h2 class="mission__title">Миссия Duffbeer</h2>
+                            <p class="mission__description">
+                                работать вместе, что бы лучше накормить <br />
+                                и сохранить планету
+                            </p>
+                            <a href="#" class="mission__link" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="advantages">
+                    <div class="advantages__wrap">
+                        <h2 class="advantages__title">Наши преимущества</h2>
+                        <div class="advantages__controls">
+                            <button class="advantages__arrow advantages__arrow_left">
+                                <svg class="advantages__arrow_icon" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182zM0 4.5h11v-1H0v1z"
+                                        fill="#0A3B93"
+                                    />
+                                </svg>
+                            </button>
+                            <ul class="advantages__list">
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-1-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-1-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Уверенность в&nbsp;завтрашнем дне</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-1">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                ООО «Conecom», российское подразделение французского концерна Lesaffre. Мы компания, которая честно ведет свой
+                                                бизнес на территории РФ, соблюдая законодательство и гарантируя стабильность и уверенность в завтрашнем дне.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-2-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-2-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Безопасность на рабочем месте – приоритет №1</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-2">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Вопросам безопасности и качества пищевой продукции в нашей компании уделяется повышенное внимание. Все
+                                                производства группы DuffBeer в России постоянно работают над улучшением процессов и стремятся сделать все
+                                                возможное, чтобы рабочий процесс был максимально безопасным и комфортным.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-3-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-3-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">
+                                            Стабильная заработная <br />
+                                            плата
+                                        </p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-3">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Мы обеспечиваем нашим сотрудникам стабильную заработную плату в соответствии с рынком региона. Средний стаж
+                                                работы в нашей компании – 7 лет.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-4-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-4-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Заботимся о здоровье сотрудников</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-4">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Каждый сотрудник в нашей компании обеспечен полисом добровольного медицинского страхования. Кроме того, на
+                                                каждом заводе есть медицинский пункт для сотрудников. Осуществляется страхование от несчастных случаев с первого
+                                                дня работы.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-5-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-5-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Предоставление удобной спецодежды и СИЗ для производственного персонала</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-5">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Мы предоставляем удобные СИЗ и спецодежду и в случае износа или порчи обмениваются на новые.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-6-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-6-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Обучение: различные программы обучения и профессиональные тренинги</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-6">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Мы уделяем много внимания развитию наших сотрудников. В компании работает Внутренний центр обучений и ежегодно
+                                                проводится большое количество обучающих мероприятий как локально на заводах, так и в головном офисе DuffBeer во
+                                                Франции.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-7-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-7-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Возможности для реализации творческого потенциала</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-7">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Мы ставим перед собой амбициозные и интересные цели, а реализация задач является командной работой сотрудников
+                                                из различных подразделений. Мы также принимаем активное участие в работе над кросс-функциональными проектам с
+                                                коллегами из других стран присутствия DuffBeer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-8-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-8-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Мы - семейная компания и любим проводить время вместе</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-8">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Ежегодно мы проводим корпоративные мероприятия не только для наших сотрудников, но и для семей наших
+                                                сотрудников. А корпоративные подарки для детей сотрудников – наша добрая предновогодняя традиция.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="advantages__item">
+                                    <picture>
+                                        <source srcset="images/img-9-l.jpg" media="(min-width: 1339px)" />
+                                        <img src="images/img-9-m.jpg" alt="Картинка 1" class="advantages__item_img" />
+                                    </picture>
+                                    <div class="advantages__item_content">
+                                        <p class="advantages__item_text">Мы - социально ответственная компания и заботимся об окружающих</p>
+                                        <img src="images/icon-plus.png" alt="Иконка плюса" class="advantages__item_icon" />
+                                    </div>
+                                    <div class="advantages__popup" id="popup-9">
+                                        <div class="advantages__popup_content">
+                                            <span class="advantages__popup_close">×</span>
+                                            <p class="advantages__popup_text">
+                                                Наша миссия лежит в основе социально-корпоративной ответственности. Мы ведем свою деятельность в соответствии с
+                                                тремя основными правилами: мы заботимся о людях; наша деятельность устойчива по своей природе; мы заботимся об
+                                                окружающей среде.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <button class="advantages__arrow advantages__arrow_right">
+                                <svg class="advantages__arrow_icon" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182zM0 4.5h11v-1H0v1z"
+                                        fill="#0A3B93"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="advantages__dots">
+                            <span class="advantages__dot advantages__dot_active"></span>
+                            <span class="advantages__dot"></span>
+                            <span class="advantages__dot"></span>
+                            <span class="advantages__dot"></span>
+                            <span class="advantages__dot"></span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="farm">
+                    <div class="farm__wrap">
+                        <div class="farm__details_wrap_right">
+                            <div class="farm__details_img_right"></div>
+                        </div>
+                        <div class="farm__details_wrap_left">
+                            <div class="farm__details_img_left"></div>
+                        </div>
+                        <h2 class="farm__title">Duffbeer</h2>
+                        <p class="farm__text">Ключевой мировой игрок в области ферментации</p>
+                        <div class="farm__controls">
+                            <button class="farm__arrow farm__arrow_left">
+                                <svg class="farm__arrow_icon" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182zM0 4.5h11v-1H0v1z"
+                                        fill="#0A3B93"
+                                    />
+                                </svg>
+                            </button>
+                            <div class="farm__blocks">
+                                <div class="farm__block">
+                                    <div class="farm__img-wrapper farm__img-wrapper_large">
+                                        <picture>
+                                            <source srcset="images/img-10-l.jpg" media="(min-width: 1340px)" />
+                                            <source srcset="images/img-10-m.jpg" media="(min-width: 1020px) and (max-width: 1339px)" />
+
+                                            <img src="images/img-10-s.jpg" alt="Изображение" class="farm__img farm__img_large" />
+                                        </picture>
+                                        <div class="farm__overlay farm__overlay_large"></div>
+                                        <p class="farm__bottom-text_first farm__bottom-text_large">10 700+ сотрудников</p>
+                                    </div>
+                                    <div class="farm__img-wrapper farm__img-wrapper_small">
+                                        <div class="farm__img_container">
+                                            <picture>
+                                                <source srcset="images/img-11-l.jpg" media="(min-width: 1020px)" />
+                                                <img src="images/img-11-s.jpg" alt="Изображение" class="farm__img farm__img_large" />
+                                            </picture>
+                                        </div>
+
+                                        <div class="farm__overlay farm__overlay_small"></div>
+                                        <p class="farm__bottom-text_first farm__bottom-text_small">570 экспертов R&D</p>
+                                    </div>
+                                </div>
+
+                                <div class="farm__block farm__block_reversed">
+                                    <div class="farm__img-wrapper farm__img-wrapper_large">
+                                        <picture>
+                                            <source srcset="images/img-12-l.jpg" media="(min-width: 1340px)" />
+                                            <source srcset="images/img-12-m.jpg" media="(min-width: 1020px) and (max-width: 1339px)" />
+                                            <img src="images/img-12-s.jpg" alt="Изображение" class="farm__img farm__img_large" />
+                                        </picture>
+                                        <div class="farm__overlay farm__overlay_large"></div>
+                                        <p class="farm__bottom-text_second_right farm__bottom-text_large">25+ лет в Росcии</p>
+                                    </div>
+                                    <div class="farm__img-wrapper farm__img-wrapper_small farm__img-wrapper_blue">
+                                        <div class="farm__bottom-text_wrap">
+                                            <svg class="farm__bottom__number" width="163" height="73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.8 65.358h15.581V16.24c0-1.475.05-2.966.152-4.475l-12.95 11.01c-.338.269-.675.47-1.012.604-.338.1-.658.15-.962.15-.505 0-.96-.1-1.365-.3-.405-.235-.709-.504-.911-.805L.5 18.552 22.05 0h7.336v65.358h14.266v6.838H4.8v-6.838zM81.854 28.054c2.9 0 5.65.486 8.246 1.458 2.597.938 4.873 2.33 6.83 4.173 1.956 1.81 3.507 4.055 4.654 6.736 1.146 2.648 1.72 5.682 1.72 9.1 0 3.319-.607 6.402-1.822 9.251a22.419 22.419 0 0 1-5.109 7.44c-2.158 2.112-4.772 3.772-7.841 4.978C85.462 72.397 82.09 73 78.414 73c-3.642 0-6.947-.57-9.915-1.71-2.934-1.172-5.447-2.815-7.538-4.926-2.09-2.145-3.71-4.726-4.856-7.743-1.113-3.05-1.67-6.452-1.67-10.206 0-3.15.708-6.502 2.125-10.055 1.416-3.553 3.66-7.373 6.728-11.463L81.652 2.313c.472-.604 1.13-1.106 1.973-1.509.843-.435 1.804-.653 2.883-.653h7.993L69.36 31.774c1.72-1.173 3.625-2.078 5.716-2.715 2.091-.67 4.35-1.005 6.78-1.005zm-18.718 21.92c0 2.313.338 4.424 1.012 6.335.675 1.91 1.653 3.552 2.934 4.927 1.316 1.374 2.9 2.446 4.756 3.217 1.888.737 4.03 1.106 6.424 1.106 2.429 0 4.62-.385 6.577-1.156 1.956-.771 3.625-1.844 5.008-3.218 1.417-1.374 2.496-3 3.238-4.877.775-1.876 1.163-3.92 1.163-6.133 0-2.346-.37-4.458-1.113-6.335-.742-1.91-1.787-3.52-3.136-4.826-1.35-1.34-2.968-2.363-4.857-3.067-1.888-.704-3.962-1.056-6.222-1.056-2.428 0-4.62.42-6.576 1.257-1.957.804-3.626 1.91-5.009 3.318a14.586 14.586 0 0 0-3.136 4.827 15.453 15.453 0 0 0-1.063 5.68zM162.5.15v4.023c0 1.14-.135 2.078-.405 2.815-.236.738-.489 1.358-.759 1.86l-29.998 60.18a6.942 6.942 0 0 1-1.822 2.263c-.775.603-1.821.905-3.136.905h-6.425l30.454-59.426c.439-.838.877-1.609 1.316-2.313.472-.704.995-1.374 1.568-2.01h-37.84c-.574 0-1.096-.219-1.569-.654-.438-.47-.657-.989-.657-1.559V.151H162.5z"
+                                                    fill="#fff"
+                                                />
+                                            </svg>
+                                            <p class="farm__bottom-text_second farm__bottom-text_small">
+                                                лет опыта <br />
+                                                на рынке хлебопечения
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="farm__block">
+                                    <div class="farm__img-wrapper farm__img-wrapper_large">
+                                        <picture>
+                                            <source srcset="images/img-13-l.jpg" media="(min-width: 1340px)" />
+                                            <source srcset="images/img-13-m.jpg" media="(min-width: 1020px) and (max-width: 1339px)" />
+                                            <img src="images/img-13-s.jpg" alt="Изображение" class="farm__img farm__img_large" />
+                                        </picture>
+                                        <div class="farm__overlay farm__overlay_large"></div>
+                                        <p class="farm__bottom-text_third_left farm__bottom-text_large">Филиалы в 50 странах</p>
+                                    </div>
+                                    <div class="farm__img-wrapper farm__img-wrapper_small farm__img-wrapper_blue">
+                                        <div class="farm__overlay farm__overlay_small"></div>
+                                        <div class="farm__bottom-text_wrap">
+                                            <svg class="farm__bottom__number" width="59" height="78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M47.145 49.72H59v5.48c0 .574-.182 1.057-.546 1.451-.328.394-.856.591-1.585.591h-9.724V77.5h-8.577V57.242H3.879c-.728 0-1.365-.197-1.911-.59-.51-.43-.838-.95-.984-1.559L0 50.203 38.077.5h9.068v49.22zm-8.577-31.757c0-.931.019-1.934.055-3.009.073-1.074.2-2.185.383-3.331L10.544 49.72h28.024V17.963z"
+                                                    fill="#fff"
+                                                />
+                                            </svg>
+                                            <p class="farm__bottom-text-third farm__bottom-text_small">
+                                                направления<br />
+                                                деятельности
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="farm__arrow farm__arrow_right">
+                                <svg class="farm__arrow__icon" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182zM0 4.5h11v-1H0v1z"
+                                        fill="#0A3B93"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="farm__dots">
+                            <span class="farm__dot farm__dot_active"></span>
+                            <span class="farm__dot"></span>
+                            <span class="farm__dot"></span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <div id="overlay" class="overlay"></div>
+        <script src="scripts/scripts.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    </body>
+</html>
